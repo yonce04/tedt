@@ -1,6 +1,6 @@
 from imageai.Classification import ImageClassification
 import os
- 
+ #yoloS
 exec_path = os.getcwd()
  
 prediction = ImageClassification()
