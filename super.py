@@ -12,3 +12,6 @@ prediction.loadModel()
 predctions, probabilities = prediction.classifyImage(os.path.join(exec_path,'house.jpg'), result_count=10)
 for eachPred, eachProb in zip(predctions, probabilities):
     print(f'{eachPred} : {eachProb}')
+
+
+#new branch
